@@ -1,0 +1,25 @@
+{
+    "name": "package-of-yii/uuid-yii",
+    "description": "Ramsey Uuid for Yii 2 applications.",
+    "keywords": ["ramsey", "uuid", "php", "yii2"],
+    "homepage": "https://github.com/package-of-yii/uuid-yii",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pralhad Kumar Shrestha",
+            "email": "pralhadkumarshrestha@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ramsey/uuid": "^4.0",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Poyii\\Uuid\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
