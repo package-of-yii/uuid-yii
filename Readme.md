@@ -8,11 +8,18 @@ The Uuid for Yii provides you with instant accessibility to use Uuid in Yii PHP 
 * Automatic insertion of Uuid using Behavior option.
 
 
+## Installation
+
+Use composer to install the package
+```
+composer require package-of-yii/uuid-yii
+```
+
 ## Getting started
 
 Behaviour Class Implementation
 ```php
-use Poyii\Uuid\Behaviour\UuidBehavior;
+use Poyii\Uuid\Behavior\UuidBehavior;
 
 public function behaviors()
 {

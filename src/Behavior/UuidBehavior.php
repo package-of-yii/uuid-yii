@@ -1,6 +1,6 @@
 <?php
 
-namespace Poyii\Uuid\Behaviour;
+namespace Poyii\Uuid\Behavior;
 
 use Ramsey\Uuid\Uuid;
 use yii\base\Event;
